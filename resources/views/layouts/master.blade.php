@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Eshop a Flat E-Commerce Bootstrap Responsive Website Template | Home :: w3layouts</title>
+    <title>E-shop</title>
     <link href=" {{ asset('Assets/css/bootstrap.css') }}" rel='stylesheet' type='text/css'/>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="{{ asset('Assets/js/jquery.min.js') }}"></script>
@@ -10,19 +10,11 @@
     <!-- Custom Theme files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="keywords" content="Eshop Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
-    <script type="application/x-javascript"> addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
-
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        } </script>
     <!--webfont-->
     <!-- for bootstrap working -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-{{--    <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>--}}
+{{--    <script type="text/javascript" src="{{ asset('Assets/js/bootstrap-3.1.1.min.js') }}"></script>--}}
+
 <!-- //for bootstrap working -->
     <!-- cart -->
     <script src="{{ asset('Assets/js/simpleCart.min.js') }}"></script>
@@ -205,26 +197,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="banner-bottom-right">
                     <div class="callbacks_container">
-                        <ul class="rslides" id="slider4">
-                            <li>
-                                <div class="banner-info">
-                                    <h3>Smart But Casual</h3>
-                                    <p>Start your shopping here...</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="banner-info">
-                                    <h3>Shop Online</h3>
-                                    <p>Start your shopping here...</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="banner-info">
-                                    <h3>Pack your Bag</h3>
-                                    <p>Start your shopping here...</p>
-                                </div>
-                            </li>
-                        </ul>
+                        {{--                        <ul class="rslides" id="slider4">--}}
+                        {{--                            <li>--}}
+                        {{--                                <div class="banner-info">--}}
+                        {{--                                    <h3>Smart But Casual</h3>--}}
+                        {{--                                    <p>Start your shopping here...</p>--}}
+                        {{--                                </div>--}}
+                        {{--                            </li>--}}
+                        {{--                            <li>--}}
+                        {{--                                <div class="banner-info">--}}
+                        {{--                                    <h3>Shop Online</h3>--}}
+                        {{--                                    <p>Start your shopping here...</p>--}}
+                        {{--                                </div>--}}
+                        {{--                            </li>--}}
+                        {{--                            <li>--}}
+                        {{--                                <div class="banner-info">--}}
+                        {{--                                    <h3>Pack your Bag</h3>--}}
+                        {{--                                    <p>Start your shopping here...</p>--}}
+                        {{--                                </div>--}}
+                        {{--                            </li>--}}
+                        {{--                        </ul>--}}
                     </div>
                 </div>
                 <div class="clearfix"></div>
