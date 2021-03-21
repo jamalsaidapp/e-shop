@@ -6,8 +6,9 @@
                 <div class="container">
                     <div class="header-top-left">
                         <ul>
-                            <li><a href="#"><span class="glyphicon glyphicon-user"> </span>Login</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-lock"> </span>Create an Account</a>
+                            <li><a @click.prevent="$router.push('/login')" href="#"><i class="fas fa-user mr-2"></i>Se
+                                Connecter</a></li>
+                            <li><a @click.prevent="$router.push('/register')" href="#"><i class="fas fa-lock mr-2"></i>S'inscrire</a>
                             </li>
                         </ul>
                     </div>
@@ -53,6 +54,9 @@
                             </li>
                             <li>
                                 <router-link to="/products">Products</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/boutique">Mon Boutique</router-link>
                             </li>
                             <li>
                                 <router-link to="/contact">Contact</router-link>

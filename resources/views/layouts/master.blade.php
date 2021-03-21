@@ -2,11 +2,14 @@
 <html>
 <head>
     <title>E-shop</title>
+    {{--    <link rel="stylesheet" href="{{asset('css/app.css')}}">--}}
     <link href=" {{ asset('Assets/css/bootstrap.css') }}" rel='stylesheet' type='text/css'/>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="{{ asset('Assets/js/jquery.min.js') }}"></script>
     <!-- Custom Theme files -->
     <link href="{{ asset('Assets/css/style.css') }}" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ asset('Assets/FA5PRO-master/css/all.css')}}">
     <!-- Custom Theme files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
